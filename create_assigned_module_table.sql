@@ -1,6 +1,6 @@
 CREATE TABLE assigned_modules 
 	(
-		assignedMID int (11),
+		assignedMID int (11) AUTO_INCREMENT,
 		studentID int (11),
 		moduleID int (11),
 		PRIMARY KEY (assignedMID),

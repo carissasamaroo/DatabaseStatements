@@ -1,6 +1,6 @@
 CREATE TABLE sessions
 	(
-		sessionID int (11),
+		sessionID int (11) AUTO_INCREMENT,
 		moduleID int (11),
 		status varchar (100),
 		startTime varchar (100),
